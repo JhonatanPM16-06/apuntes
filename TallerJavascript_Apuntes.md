@@ -167,22 +167,26 @@ let val2;
 Estas estructuras permiten ejecutar bloques de codigo
 segun el resultado de una conducta
 
-
+```
 let EdadA=17;
 
 //_Estructura de control usando if_
 if(EdadA >= 18){
     console.log("Eres un adulto y debes registrarte en el SAT")
 }
+```
 ---
 //**Estructura de control usando if/else**
+```
 if(EdadA >= 18){
     console.log("Eres un adulto y debes registrarte en el SAT")
 }else{
     console.log("Todabia no pagaras impuestos")
 }
+```
 ---
 //1.- **_Operadores aridmeticos_**
+```
 let a=10;
 let b=5;
 console.log(a + b); //suma
@@ -190,16 +194,20 @@ console.log(a - b); //resta
 console.log(a * b); //multiplicacion
 console.log(a / b); //division
 console.log(a % b); //modulo
+```
 ---
 //_operadores de asignacion_
+```
 let X=10;
 X += 5; //X=15
 X -= 2; //X=13
 X *= 3; //X=39
 X /= 3; //X=13
 X %= 15; //X=3
+```
 ---
 //_operadores de comparacion_
+```
 let A=5; let B=`5`;
 console.log(A == B); //compara solo el valor
 console.log(A === B); //compara el valor y el tipo
@@ -207,8 +215,10 @@ console.log(A != B);
 console.log(A !== B);
 console.log(A > 3);
 console.log(A <= 5);
+```
 ---
 // _estructuras de control if/false anidado_
+```
 let cargo = 200
 
 if (cargo >= 100 && cargo <= 150) {
@@ -233,29 +243,32 @@ while (contador < 10 ) {
     console.log(" [while ]No iteracion" + contador)
     contador++
 }
+```
 
 //~estructura de control do/while~
+```
 let numero=1
 
 do {
     console.log(" [do/while] no iteracion" + numero)
     numero++
 } while (numero < 10)
-
+```
 // ~for in~ 
 // este bucle itera sobre las propiedades enumerables de un objeto.
+```
 let estudiante = { nombre: "Juan Perez", edad:18, calificacion:70}
 for (let propiedad in estudiante) {
 console.log(propiedad + ":" + estudiante[propiedad]
 )
 }
-
+```
 //_for... of_
 // este ciclo itera sobre los valores de un objeto iterable (como un array).
+```
 let mis_numeros = [10, 20, 30, 40, 50]
 
 for (let numero of mis_numeros) {
     console.log(numero)
 }
-
-
+```
