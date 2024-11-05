@@ -75,10 +75,10 @@ tablas
 
 
 | columna 1 | Columna 2 | Columna 3 |
-| --------- |
-|A          |
-|B          |
-|C          |
+| --------- | --------- | --------- |
+|A          |B          |C          |
+|D          |E          |E          |
+|           |           |           |
 
 
 Codigo
@@ -96,17 +96,16 @@ pero si queeremos sacar un bloque completo de codigo utilizamos`;
 ```
 let estudiante= "Juan Perez";
 let  edad=19;
-let is estudiante = true
+let is estudiante = true;
 ```
 
 //**Asi se usan los comentarios de JavaScript de una sola linea**
----
+
 console.log("Bienvenido al mundo de la programación FrontEnd con JavaScript");
----
+
 console.log("Esta es otra linea" + "Y se conectan con el simbolo +");
----
-/*
-_Este es un comentario de mas de una  linea_
+
+/*_Este es un comentario de mas de una  linea_
 
 En javaScript no eXiste un compilador dado que es un lenguaje
 interpretado. Es por ello que tenemos que utilizar la instrucción
@@ -122,13 +121,13 @@ let estudiante="Juan Pérez";
 let edad="19 años";
 let isEstudiante="true";
 let calificacion=92.3;
-```
+
 console.log("Estudiante: "+estudiante);
 console.log("Edad: "+edad);
 console.log("Estudia: "+isEstudiante);
 console.log(typeof calificacion);
 console.log(`El promedio global del estudiante es ${calificacion}`);
-
+```
 
 
 JavaScript es un lenguaje debilmente tipeado, esto significa que
@@ -136,7 +135,7 @@ no es estricto en declararación de tipos de datos. Es decir que no
 fuerza a que inicialmente digas el tipo de dato de la variable. Y
 esta puede cambiar en el transcurso de lógica por otro tipo de
 datos segun sea la necesidad
----
+
 ```
 let num1=50;
 let num2=25;
@@ -144,13 +143,13 @@ let suma=num1 + num2
 let resta=num1-num2;
 let mult=num1*num2;
 let divicion=num1/num2;
-```
+
 
 console.log("Suma= "+suma);
 console.log("Resta= "+resta);
 console.log("Multiplicación= "+mult);
 console.log("Divición= "+divicion);
-```
+
 let val1;
 let val2;
     val1=prompt("Ingresa el primer numero");
